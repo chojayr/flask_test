@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/linkedin')
+@app.route('/github')
 def linkd():
-    return render_template('linkedin.html')
+    return render_template('github.html')
 
 
 @app.route('/gplus')
